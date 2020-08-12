@@ -51,3 +51,16 @@
   - 사용 불가
 - value
   - 값
+
+## Label
+
+- 폼 양식에 이름을 붙이는 태그
+
+```html
+<label for="user-name">name</label> <input type="text" id="user-name" />
+```
+
+### Attributes
+
+- for
+  - input과 연결하기 위한 값. input의 id를 입력한다.
