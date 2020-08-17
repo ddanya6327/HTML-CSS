@@ -3,7 +3,7 @@
 Practice
 Markup Twitter
 
-![twitter](./assets/twitter.png)
+![twitter](./assets/twitter.PNG)
 
 - Twitter Image
 
