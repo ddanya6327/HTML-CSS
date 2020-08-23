@@ -49,3 +49,30 @@ Box의 Size를 어떤 것을 기준으로 계산할지 정하는 속성
 }
 /* 모든 요소들의 box-sizing을 border-box를 기준으로 한다. */
 ```
+
+# Box Type
+
+Box의 Type는 Display 속성을 통해 설정한다.
+
+## Block
+
+- 따로 width를 선언하지 않은 경우, width = 부모의 content-box의 100%
+  - 즉, 한 줄 단위라고 생각하면 된다.
+- 따로 width를 선언한다면, 남은 공간은 margin을 자동으로 채움.
+  - 부모가 1000px의 width를 가지고 자식 block이 400px라면, 600의 margin을 만들어서 남은 공간을 채움
+- 별도의 height값을 선언하지 않은 경우, block의 자식의 height 값 만큼의 height 값을 가진다.
+
+## Inline
+
+- inline 요소는 block과 달리 한 줄에 여러 inline 이 존재 할 수 있다.
+- width, height, padding-top, padding-bottom, border-top, border-bottom, margin-top, margin-bottom 속성 사용 불가
+  - 속성이 적용 되긴 하지만, 다른 요소를 덮어버리기 때문에 사용하지 않는 편이 좋다.
+
+## Inline Block
+
+- block과 inline의 특징을 다 가지고 있다.
+  - inline처럼 한 줄에 여러 요소가 있을 수 있으며, block 처럼 width, height 과 같은 속성을 적용할 수 있다.
+
+## Flex
+
+- [Flex](./flex.md)
