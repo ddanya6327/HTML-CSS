@@ -36,6 +36,8 @@ float tips
   - clear는 left, right, both 속성이 있음.
 
 - float 로 가로 정렬을 할 경우, clear: left 속성을 가진 div 라던지를 마지막에 주지 않으면 이상하게 출력 될 확률이 있다. 근데 그렇다고 의미 없는 div를 넣기는 그러니까 css의 가상 요소를 넣어서 처리하면 좋다.
+  - 가상 요소에서 content는 필수
+  - display도 block으로 해주자
 
 ```css
 .div::after {
