@@ -35,4 +35,9 @@
   - bottom
 
 - z-index
+
   - 수직 방향의 위치를 정하기 위해 사용.
+
+- modal 같은거 정 가운대 배치 하는 방법
+  - left: 50%;
+  - transform: translate(-50%, -50%);
