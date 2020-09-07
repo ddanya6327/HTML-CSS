@@ -27,10 +27,12 @@ transition: property duration \[timing-function\] \[delay\]
 ## duration
 
 - 애니메이션 시간
+  - ms
+  - s
 
 ## timing-function
 
-- 재생 속도
+- 재생 속도 조절
   - ease-in
   - ease-out
   - ease-in-out

@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "lato", sans-serif;
+}
+
+button,
+input,
+textarea {
+  font-family: "lato", sans-serif;
+}
+
+button {
+  border: none;
+  background-color: #fff;
+}
+
+.line-button {
+  font-size: 16px;
+  line-height: 20px;
+  color: #151b26;
+  padding: 18px 30px;
+  position: relative;
+  cursor: pointer;
+}
+
+.line-button::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #0066ff;
+  left: 0;
+  bottom: 0;
+  transition: width 200ms ease-in, background-color 250ms ease-in;
+}
+
+.line-button:hover::after {
+  width: 100%;
+  background-color: hotpink;
+}
