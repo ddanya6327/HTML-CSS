@@ -84,8 +84,7 @@ section li {
 
 - 형제 선택자
 
-  - parent + sibling
-    -
+  - ## parent + sibling
   - parent ~ sibling
 
 ```css
@@ -125,6 +124,8 @@ section li {
   - element:last-child
 
   - element:nth-child(n)
+
+  - element:first-of-type
 
 - 가상 클래스를 사용하면 `<li class="first-child">` 와 같은걸 사용할 필요가 없어진다.
 
