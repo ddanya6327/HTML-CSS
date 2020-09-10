@@ -1,5 +1,7 @@
 # Flexbox
 
+- https://developer.mozilla.org/ko/docs/Web/CSS/flex
+
 ## 선언
 
 - 정렬 하고자 하는 요소를 지닌 부모의 display에 flex 또는 inline-flex를 선언한다.
@@ -56,5 +58,50 @@
 
 .yellow {
   order: 2;
+}
+```
+
+## Flex-grow
+
+- 컨테이너가 커질 때 어떤 비중으로 커질지
+
+```css
+.item {
+  flex-grow: 1;
+}
+```
+
+## Flex-shrink
+
+- 컨테이너가 작아 질 때 어떤 비중으로 작아질지
+
+```css
+.item {
+  flex-shrink: 1;
+}
+```
+
+## Flex-basis
+
+- %로 기준을 나눌 수 있음.
+
+```css
+.item1 {
+  flex-basis: 60%;
+}
+
+.item2 {
+  flex-basis: 40%;
+}
+```
+
+## Align-self
+
+- 한 아이템에 대한 align 속성
+
+```css
+.item1 {
+  align-self: center;
+  /* item1 요소만 중간 정렬 */
 }
 ```
