@@ -1,6 +1,6 @@
 # Flexbox
 
-- https://developer.mozilla.org/ko/docs/Web/CSS/flex
+- https://developer.mozilla.org/ko/docs/Learn/CSS/CSS_layout/Flexbox
 
 ## 선언
 
