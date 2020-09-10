@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube Mobile</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/c998a30186.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <i class="fab fa-youtube"></i>
+        <span class="title">Youtube</span>
+      </div>
+      <div class="icons">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-ellipsis-v"></i>
+      </div>
+    </header>
+
+    <!-- Video Player -->
+    <section class="player">
+      <video controls src=""></video>
+    </section>
+
+    <div class="infoAndUpNext">
+      <!-- Video Info -->
+      <section class="info">
+        <div class="metadata">
+          <ul class="hashtags">
+            <li>#Yang</li>
+            <li>#Hyeon</li>
+            <li>#Ha</li>
+          </ul>
+          <div class="titleAndButton">
+            <span class="title clamp">
+              Clone Coding: Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Quos asperiores atque, perspiciatis odit corrupti ab
+              obcaecati pariatur recusandae accusantium laboriosam, dolore
+              deserunt vero repellendus! Exercitationem reprehenderit ullam esse
+              pariatur sapiente.
+            </span>
+            <button class="moreBtn">
+              <i class="fas fa-caret-down"></i>
+            </button>
+          </div>
+          <span class="views">1M views 1 month ago</span>
+        </div>
+        <ul class="actions">
+          <li>
+            <button>
+              <i class="fas fa-thumbs-up active"></i> <span>1K</span>
+            </button>
+          </li>
+          <li>
+            <button><i class="fas fa-thumbs-down"></i><span>0</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-share"></i><span>Share</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-plus"></i><span>Save</span></button>
+          </li>
+          <li>
+            <button>
+              <i class="fab fa-font-awesome-flag"></i><span>Report</span>
+            </button>
+          </li>
+        </ul>
+        <div class="channel">
+          <div class="metadata">
+            <img src="./assets/user1.png" alt="User Profile" />
+            <div class="info">
+              <span class="name"> Yang </span>
+              <span class="subscribers"> 1M subscribers </span>
+            </div>
+          </div>
+          <button class="subscribe">subscribe</button>
+        </div>
+      </section>
+
+      <!-- Up Next -->
+      <section class="upNext">
+        <span class="title">Up next</span>
+        <ul>
+          <li class="item">
+            <div class="img"><img src="./assets/thumbnail.png" alt="" /></div>
+
+            <div class="info">
+              <span class="title"
+                >Learn CSS! Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Quam reiciendis</span
+              >
+
+              <span class="name">Yang</span>
+              <span class="views">80K views</span>
+            </div>
+            <button class="moreBtn">
+              <i class="fas fa-ellipsis-v"></i>
+            </button>
+          </li>
+          <li class="item">
+            <div class="img"><img src="./assets/thumbnail.png" alt="" /></div>
+            <div class="info">
+              <span class="title"
+                >Learn HTML! Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Quam reiciendis</span
+              >
+              <span class="name">Yang</span>
+              <span class="views">55K views</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="item">
+            <div class="img"><img src="./assets/thumbnail.png" alt="" /></div>
+            <div class="info">
+              <span class="title"
+                >Learn Everything Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Quam reiciendis,</span
+              >
+              <span class="name">Yang</span>
+              <span class="views">123K views</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
